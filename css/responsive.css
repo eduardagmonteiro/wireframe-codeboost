@@ -1,7 +1,47 @@
 @media (max-width: 1200px) {
+  .s-hero .text {
+    max-width: 49%;
+  }
 }
 
 @media (max-width: 991px) {
+  .s-hero .container {
+    flex-direction: column;
+  }
+
+  .s-hero .text {
+    max-width: 100%;
+    margin-bottom: 40px;
+    margin-top: 9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .s-hero .container .text h1 {
+    text-align: center;
+  }
+
+  .s-hero .container .text p {
+    text-align: center;
+  }
+
+  .s-hero .container .text .btn-primary-purple {
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .s-hero .container .image {
+    margin-top: 8rem;
+    margin-bottom: 5rem;
+  }
+
+  .s-hero .scroll-to-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+  }
 }
 
 @media (max-width: 768px) {
@@ -14,10 +54,42 @@
     font-size: 1.2rem;
     padding: 1rem 1.6rem;
   }
+
+  .s-hero .image {
+    margin-top: 2rem;
+    height: 15rem;
+  }
 }
 
 @media (max-width: 600px) {
 }
 
 @media (max-width: 480px) {
+  html {
+    font-size: 55%;
+  }
+  header .logo {
+    max-width: 13rem;
+  }
+
+  .s-hero {
+    padding: 4rem 0px;
+  }
+
+  .s-hero .text p {
+    margin-bottom: 3rem;
+  }
+
+  .s-hero .image img {
+    margin-top: 5rem;
+    max-width: 20rem;
+  }
+
+  h1 {
+    font-size: 5rem;
+  }
+
+  .s-hero .scroll-to-more {
+    margin-top: 2rem;
+  }
 }
