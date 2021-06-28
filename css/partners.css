@@ -72,8 +72,19 @@ h2 {
   letter-spacing: 6%;
   background-color: var(--white);
   transition: all 0.3s;
+  color: var(--gray-color-1);
 }
 
 .menu-item:hover {
   color: var(--primary-color);
+}
+
+.menu-item-purple {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 100%;
+  letter-spacing: 6%;
+  color: var(--primary-color-light);
+  transition: all 0.3s;
 }
