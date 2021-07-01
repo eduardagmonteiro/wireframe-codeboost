@@ -20,6 +20,7 @@ h2 {
 .btn-primary-purple {
   font-family: "Inter", sans-serif;
   display: inline-block;
+  text-align: center;
   background-color: var(--primary-color);
   padding: 1.9rem 6.5rem;
   font-weight: 600;
@@ -34,6 +35,7 @@ h2 {
 
 .btn-primary-white {
   font-family: "Inter", sans-serif;
+  text-align: center;
   display: inline-block;
   background-color: var(--white);
   padding: 1.9rem 6.5rem;

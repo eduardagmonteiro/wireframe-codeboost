@@ -100,7 +100,7 @@ header nav ul li:first-child {
 
 .services {
   padding-top: 9rem;
-  padding-bottom: 12rem;
+  padding-bottom: 0rem;
 }
 
 .services .main-area {
@@ -167,4 +167,104 @@ header nav ul li:first-child {
   font-size: 1.7rem;
   color: var(--text-color);
   margin-top: 1.2rem;
+}
+
+/* Plans  */
+
+.plans {
+  background-color: var(--gray-color-3);
+}
+
+.plans .plans-title {
+  padding-top: 9rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.plans .title-plans {
+  padding-bottom: 2.8rem;
+  border-bottom: 1px solid #e7e3f9;
+}
+
+.plans .title-plans h3 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.plans .plans-title p {
+  width: 100%;
+  max-width: 68.4rem;
+  height: 5.8rem;
+  margin-top: 1.3rem;
+  text-align: center;
+  color: var(--text-color);
+  line-height: 170%;
+}
+
+.plans .card-plans .title-plans p {
+  font-weight: 600;
+  margin-top: 0.8rem;
+  color: var(--text-color);
+}
+
+.plans .card-plans .title-plans .purple-text p {
+  color: var(--primary-color);
+}
+
+.plans .all-cards-plans {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 3.2rem;
+  padding-bottom: 9rem;
+}
+
+.plans .all-cards-plans .card-plans {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 34.5rem;
+  height: 42.8rem;
+  border: 1px solid #e7e3f9;
+  border-radius: 0.5rem;
+  padding: 3.2rem;
+  padding-bottom: 3.6rem;
+}
+
+.plans .all-cards-plans .card-plans .content-plans {
+  display: flex;
+  flex-direction: row;
+  margin-top: 3.2rem;
+  font-size: 1.5rem;
+  color: var(--text-color);
+  line-height: 110%;
+  justify-content: space-between;
+  margin-bottom: 3.2rem;
+}
+
+.plans .all-cards-plans .card-plans .content-plans .content-left {
+  width: 50%;
+}
+
+.plans .all-cards-plans .card-plans .content-plans .content-left li {
+  margin-bottom: 1.9rem;
+}
+
+.plans .all-cards-plans .card-plans .content-plans .content-left li:last-child {
+  margin-bottom: 0;
+}
+
+.plans .all-cards-plans .card-plans .content-plans .content-right li {
+  margin-bottom: 1.9rem;
+}
+
+.plans
+  .all-cards-plans
+  .card-plans
+  .content-plans
+  .content-right
+  li:last-child {
+  margin-bottom: 0;
 }
