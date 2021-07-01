@@ -31,15 +31,19 @@
     margin-bottom: 1.5rem;
   }
 
-  .s-hero .container .image {
-    margin-top: 8rem;
-    margin-bottom: 5rem;
-  }
-
   .s-hero .scroll-to-more {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 4rem;
+  }
+
+  .s-hero .container .image {
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+  }
+
+  .services {
     margin-top: 0;
   }
 }
@@ -59,6 +63,15 @@
     margin-top: 2rem;
     height: 15rem;
   }
+
+  .services .title p {
+    text-align: center;
+  }
+
+  .services {
+    padding-top: 0;
+    margin-top: 5rem;
+  }
 }
 
 @media (max-width: 600px) {
@@ -73,16 +86,18 @@
   }
 
   .s-hero {
-    padding: 4rem 0px;
+    padding: 0rem 0px;
+    margin-bottom: 0;
   }
 
   .s-hero .text p {
     margin-bottom: 3rem;
   }
 
-  .s-hero .image img {
-    margin-top: 5rem;
-    max-width: 20rem;
+  .s-hero .image {
+    margin-top: 0rem;
+    max-width: 25rem;
+    height: 80%;
   }
 
   h1 {
@@ -90,6 +105,38 @@
   }
 
   .s-hero .scroll-to-more {
-    margin-top: 2rem;
+    margin-top: 4rem;
+  }
+
+  .s-hero .scroll-to-more {
+    margin-top: 4rem;
+  }
+
+  .s-hero .scroll-to-more img {
+    margin-bottom: 3rem;
+  }
+
+  .services {
+    padding-top: 0;
+    margin-top: 5rem;
+    padding-bottom: 0;
+  }
+
+  .services .main-area {
+    padding-bottom: 1.5rem;
+  }
+
+  .services .title h2 {
+    font-size: 3rem;
+  }
+
+  .services .title p {
+    text-align: center;
+  }
+
+  .services .all-points {
+    margin-top: 4rem;
+
+    gap: 2rem;
   }
 }
