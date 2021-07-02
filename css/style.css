@@ -268,3 +268,83 @@ header nav ul li:first-child {
   li:last-child {
   margin-bottom: 0;
 }
+
+/* ABOUT US */
+
+.about-us .title-about-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 9rem;
+}
+
+.about-us .title-about-us h2 {
+  width: 100%;
+  max-width: 90rem;
+  height: 9.8rem;
+  text-align: center;
+}
+
+.about-us .title-about-us .button-about-us {
+  display: flex;
+  flex-direction: row;
+}
+
+.about-us .title-about-us .button-about-us a {
+  margin-right: 2.43rem;
+}
+
+.about-us .title-about-us .button-about-us a:last-child {
+  margin-right: 0;
+}
+
+.about-us .container-about-us {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-us .container-about-us .content-about-us {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 51.9rem;
+
+  margin-top: 16.5rem;
+}
+
+.about-us .container-about-us .image-about-us {
+  margin-top: 14.5rem;
+  width: 100%;
+  max-width: 52rem;
+  height: 30rem;
+}
+
+.about-us .container-about-us .content-about-us {
+  width: 100%;
+  max-width: 51.9rem;
+  height: 27.5rem;
+}
+
+.about-us .container-about-us .content-about-us #purple-about {
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-bottom: 1.6rem;
+}
+
+.about-us .container-about-us .content-about-us h2 {
+  text-align: center;
+  width: 100%;
+  max-width: 27rem;
+  height: 9.8rem;
+}
+
+.about-us .container-about-us .content-about-us .p-content p {
+  color: var(--text-color);
+  width: 100%;
+  max-width: 51.4rem;
+  height: 13rem;
+  font-size: 1.7rem;
+  text-align: left;
+  line-height: 150%;
+}
