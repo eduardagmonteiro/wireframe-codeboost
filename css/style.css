@@ -333,7 +333,7 @@ header nav ul li:first-child {
 }
 
 .about-us .container-about-us .content-about-us h2 {
-  text-align: center;
+  text-align: left;
   width: 100%;
   max-width: 27rem;
   height: 9.8rem;
@@ -347,4 +347,184 @@ header nav ul li:first-child {
   font-size: 1.7rem;
   text-align: left;
   line-height: 150%;
+}
+
+/* Time */
+
+.time .content-time {
+  margin-top: 14.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.time .content-time p {
+  margin-top: 1.6rem;
+  color: var(--text-color);
+}
+
+.time .content-images-time {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 9rem;
+}
+
+.time .content-images-time .image-1 {
+  width: 100%;
+  max-width: 28rem;
+  height: 38rem;
+}
+
+.time .content-images-time .image-1 h4 {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-top: 3.2rem;
+}
+.time .content-images-time .image-1 h5 {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: var(--text-color-light);
+  margin-top: 0.8rem;
+}
+
+.time .content-images-time .image-1 p {
+  width: 100%;
+  max-width: 24rem;
+  height: 6.9rem;
+  text-align: left;
+  font-size: 1.7rem;
+  color: var(--text-color);
+  margin-top: 3.2rem;
+}
+
+.time .content-images-time .image-2 {
+  width: 100%;
+  max-width: 28rem;
+  height: 38rem;
+}
+
+.time .content-images-time .image-2 h4 {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-top: 3.2rem;
+}
+.time .content-images-time .image-2 h5 {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: var(--text-color-light);
+  margin-top: 0.8rem;
+}
+
+.time .content-images-time .image-2 p {
+  width: 100%;
+  max-width: 24rem;
+  height: 6.9rem;
+  text-align: left;
+  font-size: 1.7rem;
+  color: var(--text-color);
+  margin-top: 3.2rem;
+}
+
+.time .content-images-time .image-3 {
+  padding: 3.2rem 3.6rem;
+  background-color: var(--gray-color-1);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 58.6rem;
+  height: 38rem;
+  justify-content: space-between;
+}
+
+.time .content-images-time .image-3 .name-image-3 {
+  color: var(--gray-color-3);
+}
+
+.time .content-images-time .image-3 .image-info-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.time .content-images-time .image-3 .info-image-3 {
+  color: var(--text-color-light);
+}
+
+.time .content-time-2 {
+  margin-top: 14.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+/* FOOTER */
+
+footer {
+  margin-top: 14.5rem;
+  background-color: var(--gray-color-1);
+  padding-top: 9rem;
+  padding-bottom: 3.2rem;
+}
+
+footer main {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(229, 229, 229, 0.2);
+  padding-bottom: 9rem;
+}
+
+footer main .area-left {
+  max-width: 22.1rem;
+}
+
+footer main .area-left p {
+  font-size: 1.7rem;
+  font-weight: 400;
+  line-height: 135%;
+  color: var(--text-color-light);
+  margin-top: 3.2rem;
+}
+
+footer main nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 79rem;
+}
+
+footer main nav .item ul li {
+  margin-bottom: 2.4rem;
+}
+
+footer main nav .item ul li:last-child {
+  margin-bottom: 0;
+}
+
+footer main nav .item ul li a {
+  font-size: 1.7rem;
+  line-height: 135%;
+  color: var(--text-color-light);
+  transition: color 0.3s;
+}
+
+footer main nav .item ul li a:hover {
+  color: var(--white);
+}
+
+footer .end-page {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3.4rem;
+}
+
+footer .end-page p {
+  color: var(--text-color-light);
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 135%;
+}
+
+footer .end-page img {
+  cursor: pointer;
 }
